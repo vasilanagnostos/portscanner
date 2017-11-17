@@ -1,9 +1,9 @@
-## Port Scanner
+# Port Scanner
 
 * Create a database named <b>portscanner</b> and import the file db.sql.
 * Modify the server list in <b>server_list</b> table
 
-###To run:
+##To run:
 * In Windows console:
   * <b>scan</b>
 
