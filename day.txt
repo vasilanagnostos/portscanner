@@ -1,0 +1,1 @@
+0 0 * * * /usr/bin/php /home/username/public_html/portscanner.php
