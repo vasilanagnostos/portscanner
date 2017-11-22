@@ -248,7 +248,7 @@ class FtpServerScanner extends MailServerScanner{
 class StorageHandler
 {
     /**
-     * @var Database
+     * @var DatabaseInterface
      */
     protected $dbAccess;
 
@@ -257,7 +257,7 @@ class StorageHandler
      *
      * @param $dbAccess
      */
-    public function __construct(Database $dbAccess)
+    public function __construct(DatabaseInterface $dbAccess)
     {
         $this->dbAccess = $dbAccess;
     }
@@ -291,7 +291,7 @@ class StorageHandler
 class ScanServers
 {
     /**
-     * @var DataBase
+     * @var DatabaseInterface
      */
     protected $dbAccess;
 
