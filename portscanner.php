@@ -181,7 +181,7 @@ abstract class PortScanner implements ScannerInterface
      */
     public function validateResponse($readResponse)
     {
-        return preg_match("/" . $this->expectedResult . " /", $readResponse) == 1 ? true : false;
+        return preg_match("/" . $this->expectedResult . "/", $readResponse) == 1 ? true : false;
     }
 }
 
